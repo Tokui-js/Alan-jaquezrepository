@@ -27,18 +27,9 @@ public class WASDController : MonoBehaviour
     {
         //let's start writing a WASD controller
         Vector3 velocity = Vector3.zero;
-        if (Input.GetKey(KeyCode.W))
-        {
-            velocity.y = Speed;
-
-        }
         if (Input.GetKey(KeyCode.A))
         {
             velocity.x = -Speed;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            velocity.y = -Speed;
         }
         if (Input.GetKey(KeyCode.D))
         {
