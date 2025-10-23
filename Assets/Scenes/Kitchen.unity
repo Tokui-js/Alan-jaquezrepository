@@ -770,12 +770,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: The kitchen looks right how we left it at dinner,  on my left there is
-    a white door that is lock with a padlock,  I need to find the key if I want to
-    go in, I start looking at the kitchen drawers, I found the key on the first drawer
-    at the right,  I got the key and I look up to the window right by the sink and
-    I see a human figure covere in a black cloak, with a lantern in their right 
-    hand, in that same instance the floor starts vibrating more stronger making the
-    walls also vibrate. I don't know if I should go outside or unlock the basement!
+    a white door that is lock with a (padlock),  I need to find the key if I want
+    to go in, I start looking at the kitchen drawers, I found the key on the first
+    drawer at the right,  I got the key and I look up to the window right by the
+    sink and I see a human figure covere in a black cloak, with a lantern in their
+    right  hand, in that same instance the floor starts vibrating more stronger making
+    the walls also vibrate. I don't know if I should go outside or unlock the basement!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
