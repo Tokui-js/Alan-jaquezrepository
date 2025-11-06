@@ -15,6 +15,24 @@ EditorBuildSettings:
     path: Assets/Scenes/UI-Intro.unity
     guid: f18e7bc236e914c34bb5fc37dac6cfb6
   - enabled: 1
+    path: Assets/Scenes/Basement.unity
+    guid: fd64fe3b387324384abcfc7ab4a49aa8
+  - enabled: 1
+    path: Assets/Scenes/Inside the portal.unity
+    guid: 47c34ac0ac0826846b7f897693b67a95
+  - enabled: 1
+    path: Assets/Scenes/Magic world.unity
+    guid: 8250d0ca2e595f4418e68f319d2d9a3c
+  - enabled: 1
+    path: Assets/Scenes/New world.unity
+    guid: 2a8be19e0ececc745b13cd05768621b0
+  - enabled: 1
+    path: Assets/Scenes/Outside.unity
+    guid: a117668c996db4ed5a3de0b342656e85
+  - enabled: 1
+    path: Assets/Scenes/Portal closer.unity
+    guid: 1c9a7dcb01424c3488fc48eb64da8580
+  - enabled: 1
     path: Assets/Scenes/LivingRoom.unity
     guid: 95fe0a36aaa8d4b5e991b9c97e89ce70
   - enabled: 1

@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 249614830}
   - component: {fileID: 249614829}
   - component: {fileID: 249614828}
+  - component: {fileID: 249614831}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -201,7 +202,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 249614829}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 249614831}
+        m_TargetAssemblyTypeName: ButtonHelper, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Outside
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &249614829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,6 +253,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249614826}
   m_CullTransparentMesh: 1
+--- !u!114 &249614831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249614826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e87f25054b94d4193aac66188d70fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &483852199
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,6 +492,7 @@ GameObject:
   - component: {fileID: 1233464867}
   - component: {fileID: 1233464866}
   - component: {fileID: 1233464865}
+  - component: {fileID: 1233464868}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -537,7 +563,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1233464866}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1233464868}
+        m_TargetAssemblyTypeName: ButtonHelper, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Basement
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1233464866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,6 +614,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1233464863}
   m_CullTransparentMesh: 1
+--- !u!114 &1233464868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233464863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e87f25054b94d4193aac66188d70fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1251578723
 GameObject:
   m_ObjectHideFlags: 0
@@ -839,7 +889,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -136.53925, y: -7.292938, z: -276.3136, w: 22.997757}
+  m_margin: {x: -122.70264, y: 5.159973, z: -254.17505, w: -15.744705}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
